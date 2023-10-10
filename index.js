@@ -1,5 +1,11 @@
-//publish
+//to PUBLISH
 //npm publish --access=public
+
+//to UPGRADE version
+//yarn upgrade @nhom/nhom
+//npm update @nhom/nhom
+
+//https://www.npmjs.com/package/@nhom/nhom
 
 //log from the package then it is FIRST loaded. This only runs ONCE
 console.log("Nhom first log!");
