@@ -21,6 +21,7 @@ cypress.env.json
 *.zip
 /build
 /cache
+/tester
 
 # local env files
 .env
