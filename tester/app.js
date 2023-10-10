@@ -1,4 +1,4 @@
-const { sayHello, logDescription } = require("@nhom");
+const { sayHello, logDescription } = require("nhom");
 
 sayHello();
 logDescription();
