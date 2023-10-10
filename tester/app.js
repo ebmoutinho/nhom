@@ -1,4 +1,5 @@
-const { sayHello, logDescription } = require("@nhom/nhom");
+import { sayHello, logDescription, sayGoodbye } from "@nhom/nhom";
 
 sayHello();
 logDescription();
+sayGoodbye();

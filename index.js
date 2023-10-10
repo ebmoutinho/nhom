@@ -20,8 +20,13 @@ const logDescription = () => {
 	console.log("Nhom is a library for reusable components!");
 };
 
+const sayGoodbye = () => {
+	console.log('night night!');
+};
+
 //export of those functions
 module.exports = {
 	sayHello,
 	logDescription,
+	sayGoodbye,
 };
