@@ -24,10 +24,15 @@ const sayGoodbye = () => {
 	console.log('night night!');
 };
 
+const TestButton = () => {
+	return <button>Test button from @nhom!</button>
+}
+
 
 //export of those functions
 module.exports = {
 	sayHello,
 	logDescription,
 	sayGoodbye,
+	TestButton,
 };
