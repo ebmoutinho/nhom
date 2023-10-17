@@ -1,22 +1,22 @@
 {
-  "name": "@nhom/nhom",
-  "version": "1.0.4",
-  "description": "Nhom library",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ebmoutinho/nhom.git"
-  },
-  "keywords": [
-    "nhom"
-  ],
-  "author": "Nhomnhom",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ebmoutinho/nhom/issues"
-  },
-  "homepage": "https://github.com/ebmoutinho/nhom#readme"
+	"name": "@nhom/nhom",
+	"version": "1.0.5",
+	"description": "Nhom library",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/ebmoutinho/nhom.git"
+	},
+	"keywords": [
+		"nhom"
+	],
+	"author": "Nhomnhom",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ebmoutinho/nhom/issues"
+	},
+	"homepage": "https://github.com/ebmoutinho/nhom#readme"
 }

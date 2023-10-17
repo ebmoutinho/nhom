@@ -24,9 +24,14 @@ const sayGoodbye = () => {
 	console.log('night night!');
 };
 
+const Button = (props) => {
+	return <button onClick={props.onClick}>{props.title}</button>
+}
+
 //export of those functions
 module.exports = {
 	sayHello,
 	logDescription,
 	sayGoodbye,
+	Button,
 };
