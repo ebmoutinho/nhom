@@ -1,6 +1,6 @@
 {
 	"name": "@nhom/nhom",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "Nhom library",
 	"main": "index.js",
 	"scripts": {
@@ -18,5 +18,8 @@
 	"bugs": {
 		"url": "https://github.com/ebmoutinho/nhom/issues"
 	},
-	"homepage": "https://github.com/ebmoutinho/nhom#readme"
+	"homepage": "https://github.com/ebmoutinho/nhom#readme",
+	"devDependencies": {
+		"@babel/plugin-syntax-jsx": "^7.22.5"
+	}
 }
