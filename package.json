@@ -1,6 +1,6 @@
 {
 	"name": "@nhom/nhom",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "Nhom library",
 	"main": "index.js",
 	"scripts": {
@@ -20,7 +20,8 @@
 	},
 	"homepage": "https://github.com/ebmoutinho/nhom#readme",
 	"devDependencies": {
-		"@babel/plugin-syntax-jsx": "^7.22.5"
+		"@babel/plugin-syntax-jsx": "^7.22.5",
+		"babel-loader": "^9.1.3"
 	},
 	"dependencies": {
 		"@babel/preset-react": "^7.22.15"

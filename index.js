@@ -10,7 +10,6 @@
 //log from the package then it is FIRST loaded. This only runs ONCE
 console.log("Nhom first log!");
 
-
 //functions what are available inside the package
 const sayHello = () => {
 	console.log("Hello from @nhom package!");
@@ -21,18 +20,14 @@ const logDescription = () => {
 };
 
 const sayGoodbye = () => {
-	console.log('night night!');
+	console.log("night night!");
 };
-
-const TestButton = () => {
-	return <button>Test button from @nhom!</button>
-}
-
 
 //export of those functions
 module.exports = {
 	sayHello,
 	logDescription,
 	sayGoodbye,
-	TestButton,
 };
+
+export { default as TestButton } from "./src/TestButton";
