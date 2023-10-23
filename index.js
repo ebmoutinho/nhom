@@ -7,6 +7,8 @@
 
 //https://www.npmjs.com/package/@nhom/nhom
 
+import { TestButton } from './src/TestButton'
+
 //log from the package then it is FIRST loaded. This only runs ONCE
 console.log("Nhom first log!");
 
@@ -28,6 +30,7 @@ module.exports = {
 	sayHello,
 	logDescription,
 	sayGoodbye,
+	TestButton,
 };
 
 export { default as TestButton } from "./src/TestButton";

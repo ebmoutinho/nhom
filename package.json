@@ -1,6 +1,6 @@
 {
 	"name": "@nhom/nhom",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "Nhom library",
 	"main": "index.js",
 	"scripts": {
